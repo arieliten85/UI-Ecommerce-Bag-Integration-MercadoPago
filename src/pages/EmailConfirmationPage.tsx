@@ -13,6 +13,7 @@ export const EmailConfirmationPage = () => {
     const token = params.token as string;
 
     handleConfirmEmail(token);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

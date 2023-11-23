@@ -6,7 +6,6 @@ dotenv.config();
 
 // https://docs.cypress.io/guides/references/configuration
 export default defineConfig({
-  video: false,
   screenshotOnRunFailure: false,
   e2e: {
     setupNodeEvents(on, config) {
