@@ -1,0 +1,162 @@
+[
+  {
+    "id": 6,
+    "name": "Bolso de gabardina Rosa TEST-UNIT",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 50000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 41,
+        "url": "upload-images\\b010024c-6266-4926-9cd2-8d150c612ff8_img01.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bolso de cuero ecológico Marron TEST-UNIT",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 95000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 43,
+        "url": "upload-images\\1c9f2d43-503e-44eb-93c9-0bb9ba3bc734_img02.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bolso de cuero ecológico Negro TEST-UNIT",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 58000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 44,
+        "url": "upload-images\\16f106dc-f9fe-4294-82f8-1e242bef132d_01.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bolso de tela Azul marino TEST-UNIT",
+    "desc": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 65000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 47,
+        "url": "upload-images\\881e2b0a-8e53-4c63-a0c8-7fdac8564003_img04.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Bolso de tela Rallado mujer TEST-UNIT",
+    "desc": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 85000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 48,
+        "url": "upload-images\\056cd7cd-7577-46d2-a295-3f3c20d643c9_img06.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bolso estampado TEST-UNIT",
+    "desc": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 35000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 49,
+        "url": "upload-images\\9e85355b-aa53-4299-81dc-228b84ce4304_img09.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bolso de tela y cuero TEST-UNIT",
+    "desc": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 55000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 50,
+        "url": "upload-images\\1d433af2-665c-4a98-95ee-7847b1e86150_img07.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bolso de gabardina Rosa TEST-UNIT",
+    "desc": "orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero ac nisl commodo sollicitudin. Aliquam placerat dapibus euismod. Curabitur eleifend, massa sed cursus suscipit",
+    "price": 55000,
+    "category": {
+      "id": 6,
+      "name": "Bolsos de mano",
+      "desc": "Bolsos de mano para hombres y mujeres, para todo lugar y ocacion",
+      "createAt": "2023-09-20T21:05:09.214Z",
+      "updatedAt": "2023-11-14T21:49:17.577Z",
+      "deletedAt": null
+    },
+    "images": [
+      {
+        "id": 51,
+        "url": "upload-images\\acbcc6cf-3e99-44cb-94bd-65f9e5556e86_img05.jpg"
+      }
+    ]
+  }
+]

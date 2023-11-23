@@ -1,0 +1,149 @@
+.buttonBuy {
+  width: 200px !important;
+  height: 50px;
+}
+
+.buttonCounterQuantity {
+  border: 1px solid #80808078;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 30px;
+  padding: 10px;
+}
+
+.buttonCounterQuantity button {
+  border: none;
+  background: none;
+  color: blue;
+}
+.emptyCart {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.cart {
+  position: relative;
+  width: 90%;
+  min-height: 300px;
+  margin: 50px auto !important;
+  box-shadow: 0 1px 2px 0 #737373 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart .item {
+  border-bottom: 1px rgba(0, 0, 0, 0.152) solid;
+}
+.cardImage {
+  width: 100px;
+  height: 65px;
+  border: rgba(109, 107, 107, 0.272) solid 1px;
+  border-radius: 10px;
+}
+.cardItem {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px rgba(0, 0, 0, 0.152) solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cartItemAction {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cartItemProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.cartItemProduct p {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.cartItemSummary {
+  padding: 10px;
+
+  text-align: center;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttonBuy {
+  bottom: 20px;
+  right: 20px;
+  background-color: #ccc8aa;
+  border: none;
+}
+.buttonBuy:hover {
+  background-color: #a6a492;
+}
+.buttonKeepBuy {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ccc8aa;
+  border: none;
+  width: 150px !important;
+}
+.buttonKeepBuy:hover {
+  background-color: #a6a492;
+}
+
+@media (min-width: 1280px) {
+  .cart {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .cardItem {
+    display: flex;
+    flex-direction: row;
+  }
+  .cartItemProduct {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 800px !important;
+  }
+
+  .cartItemProduct div {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cartItemImages {
+    width: 200px !important;
+  }
+  .cardImage {
+    width: 80px;
+  }
+}

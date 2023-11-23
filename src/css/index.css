@@ -1,0 +1,58 @@
+@import "./nav.css";
+@import "./carrousel.css";
+@import "./categoryGrid.css";
+@import "./productsCard.css";
+@import "./cart.css";
+
+* {
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: sans-serif;
+  list-style: none;
+  font-size: 17px;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+a {
+  color: black !important;
+}
+
+#root {
+  height: 100vh;
+}
+#pages {
+  height: 100vh !important;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background: whitesmoke;
+}
+
+.customButtom {
+  border: none;
+  border-radius: 5px !important;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  color: white;
+  background: #ccc8aa !important;
+}
+.customButtom:hover {
+  border: none;
+  background: #b1ae97 !important;
+}
+
+textarea:focus,
+input:focus,
+input[type]:focus {
+  border-color: rgb(155, 188, 138);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #ccc8aa;
+  outline: 0 none;
+}
+
+footer {
+  position: absolute !important;
+  border: 0 !important;
+  width: 100% !important;
+}

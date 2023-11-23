@@ -1,0 +1,39 @@
+/* GRID CATEGORY HOME */
+.grid-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #03afff;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  transform: scale(1.04);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+@media (min-width: 810px) {
+  .wide {
+    grid-column: span 2;
+  }
+
+  .tall {
+    grid-row: span 2;
+  }
+}
+/* END GRID CATEGORY HOME */
