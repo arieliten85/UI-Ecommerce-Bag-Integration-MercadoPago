@@ -26,7 +26,7 @@ export const SignInPage = () => {
         className="d-flex mt-5 justify-content-center align-items-start h-100"
         style={{ width: "450px" }}
       >
-        <Card style={{ maxWidth: "400px" }} className="border-0 w-100">
+        <div style={{ maxWidth: "400px" }} className="border-0 w-100 bg-white">
           <Card.Body className="p-4">
             <SignInPageItemTitle />
             <SignInPageItemForm
@@ -37,7 +37,7 @@ export const SignInPage = () => {
             <SignInPageItemMessage message={message} />
             <SignInPageItemHelpers />
           </Card.Body>
-        </Card>
+        </div>
       </div>
 
       <Modal show={showModal} onHide={() => setShowModal(false)}>

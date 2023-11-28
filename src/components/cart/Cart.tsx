@@ -3,12 +3,30 @@ import { useCart } from "react-use-cart";
 import EmptyCard from "./EmptyCart";
 import CartItems from "./CartItem";
 
-export default function Cart() {
-  const { isEmpty } = useCart();
+import { initMercadoPago, Wallet } from "@mercadopago/sdk-react";
+import { useState } from "react";
+import axios from "axios";
 
-  const handleBuy = () => {
-    console.log("Compraste");
+export default function Cart() {
+  const { isEmpty, items } = useCart();
+
+  const [preferenceId, setPreferenceId] = useState(null);
+  initMercadoPago("TEST-e563e01b-390d-4a1d-b3c1-0f541086972d");
+
+  const handleBuy = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:8000/api/payment/create_preference",
+        items
+      );
+
+      setPreferenceId(response.data.id);
+    } catch (error) {
+      console.log("ERROR", error);
+    }
   };
+
+  console.log("PRODUCTOS", items);
 
   if (isEmpty) {
     return <EmptyCard />;
@@ -26,16 +44,21 @@ export default function Cart() {
         <CartItems />
         <div className="cartItemSummary">
           <CartItemSubTotal />
-          <CartItemButtonBuy handleBuy={handleBuy} />
+          <div className="buttonBuyItem">
+            <Button
+              className="w-100 m-0 buttonBuy mt-20 rounded-50"
+              onClick={handleBuy}
+            >
+              Comprar
+            </Button>
+            {preferenceId && <Wallet initialization={{ preferenceId }} />}
+          </div>
         </div>
       </div>
     </Container>
   );
 }
 
-interface ICardItemButtonBut {
-  handleBuy: () => void;
-}
 function CartItemSubTotal() {
   const { cartTotal } = useCart();
 
@@ -53,18 +76,5 @@ function CartItemTotalItems() {
     <h4 className="item py-4 px-4">
       Tu carrito <span className="fs-6">({totalItems})</span>
     </h4>
-  );
-}
-function CartItemButtonBuy(props: ICardItemButtonBut) {
-  const { handleBuy } = props;
-  return (
-    <div className="buttonBuyItem">
-      <Button
-        className="w-100 m-0 buttonBuy mt-20 rounded-50"
-        onClick={handleBuy}
-      >
-        Comprar
-      </Button>
-    </div>
   );
 }

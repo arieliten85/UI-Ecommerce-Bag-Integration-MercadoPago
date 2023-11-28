@@ -86,7 +86,7 @@ function SignUpItemCardForm(props: SignUpItemCardFormProps) {
       style={{ width: !registerSuccess ? "450px" : "" }}
     >
       {!registerSuccess ? (
-        <Card style={{}} className="border-0 w-100">
+        <div style={{ maxWidth: "400px" }} className="border-0 w-100 bg-white">
           <Card.Body className="p-4">
             <h1
               style={{
@@ -112,7 +112,7 @@ function SignUpItemCardForm(props: SignUpItemCardFormProps) {
 
             <SignUpItemHaveAccount />
           </Card.Body>
-        </Card>
+        </div>
       ) : (
         <SignUpItemMessage
           message={message}
